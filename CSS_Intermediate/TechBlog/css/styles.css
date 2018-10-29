@@ -1,0 +1,73 @@
+
+    /* Clear the default formatation */     
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* Styles */
+    body{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background:papayawhip;
+
+    }
+    .greenColor{
+        color: forestgreen;
+        
+    }
+    .blackColor{
+        color:black;
+    } 
+
+    /* Logo */
+    #navigation{
+        background: white;
+        border-bottom: 1px solid #d8d8d8;
+        height: 50px;
+    }
+    #logo{
+        float: left;
+    }
+    #menu{
+        float:right;
+        padding: 10px;
+
+    }
+
+    #area{
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    /* Links Config*/
+        a{
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        /* Not visited links */
+        a:link{
+            color:black;
+        }
+        /* Visited links */
+        a:visited{
+            color: black;;
+        }
+        /* Hover Links */
+        a:hover{
+            /* color: springgreen; */
+            background: forestgreen;
+            color:white;
+        }
+        /* Active Links */
+        a:active{
+            color:blue;
+        }
+    /* End of Links  Config*/
+    /* Box Config */
+    .newsBox{
+        border: 1px solid red;
+
+    }
+    /* End of Box Config */
+
+
