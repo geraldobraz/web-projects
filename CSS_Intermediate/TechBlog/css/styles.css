@@ -24,6 +24,10 @@
         background: white;
         border-bottom: 1px solid #d8d8d8;
         height: 50px;
+        margin-bottom: 30px;
+        /* position: fixed; */
+        /* width: 100%; */
+
     }
     #logo{
         float: left;
@@ -64,10 +68,48 @@
         }
     /* End of Links  Config*/
     /* Box Config */
-    .newsBox{
-        border: 1px solid red;
+    #newsBox{
+        /* border: 1px solid red; */
+        background: white;
+        height: auto;
+    }
 
+    #mainArea{
+        margin: 20px auto 10px auto;
+        width: 720px;
+
+    }
+
+    .postDate{
+        font-size: 16px;
+        border-bottom: 1px solid #f4f4f4;
+        display: block; /*Change the element to block type*/
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     /* End of Box Config */
 
+    .postImg{
+        float: left;
+        margin: 10px 10px 5px 10px;
+     
+    }
 
+    .postedBy{
+        border-left: 5px solid gray;
+        padding-left: 5px;
+        margin-left: 5px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+    h2{
+        color: forestgreen;
+    }
+
+    #title{
+        text-align: center;
+
+    }
