@@ -25,3 +25,18 @@ document.write(text2);
 // Read data from page
 var text3 = prompt("Insert a name: ");
 document.write(text3);
+
+// Arrays
+var fruitList = Array();
+fruitList[1] = "Banana";
+fruitList[2] = "Apple";
+fruitList[3] = "Orange";
+
+// Matrix
+
+matrix = Array(Array());
+matrix[0][0] = 2;
+
+console.log(matrix[0][0]);
+
+
